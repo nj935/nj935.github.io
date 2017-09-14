@@ -1,29 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to Nick's GitHub pages
 
-You can use the [editor on GitHub](https://github.com/nj935/nj935.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is where I will put my [CUSP](http://cusp.nyu.edu) coding.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Work so far
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+Nothing to see yet - come back soon.
 
 # Header 1
 ## Header 2
 ### Header 3
 
-- Bulleted
-- List
+But you can also see my website **Roof Jottings** at [this link](www.roofjottings.net)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
