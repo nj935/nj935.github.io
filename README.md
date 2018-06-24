@@ -1,3 +1,6 @@
 Nick's GitHub repo
 
-This to keep my [CUSP](http://cusp.nyu.edu) work.
+Projects include:
+ - Land surface classification in Houston, Texas using Landsat imagery
+ - Predictive analytics for building inspections
+ - Advocacy tool for addressing air pollution in New York City
