@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Yoga mat <= 0.5\ngini = 0.43\nsamples = 48\nvalue = [33, 15]\nclass = Classical", fillcolor="#f1ba93"] ;
+1 [label="age_continuous <= 51.5\ngini = 0.46\nsamples = 41\nvalue = [26, 15]\nclass = Classical", fillcolor="#f4caab"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Male <= 0.5\ngini = 0.49\nsamples = 29\nvalue = [17, 12]\nclass = Classical", fillcolor="#f7dac5"] ;
+1 -> 2 ;
+3 [label="Netflix is my most strenuous exercise. <= 0.5\ngini = 0.44\nsamples = 15\nvalue = [10, 5]\nclass = Classical", fillcolor="#f2c09c"] ;
+2 -> 3 ;
+4 [label="gini = 0.35\nsamples = 9\nvalue = [7, 2]\nclass = Classical", fillcolor="#eca572"] ;
+3 -> 4 ;
+5 [label="gini = 0.5\nsamples = 6\nvalue = [3, 3]\nclass = Classical", fillcolor="#ffffff"] ;
+3 -> 5 ;
+6 [label="Netflix is my most strenuous exercise. <= 0.5\ngini = 0.5\nsamples = 14\nvalue = [7, 7]\nclass = Classical", fillcolor="#ffffff"] ;
+2 -> 6 ;
+7 [label="gini = 0.46\nsamples = 11\nvalue = [4, 7]\nclass = Metal", fillcolor="#aad5f4"] ;
+6 -> 7 ;
+8 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0]\nclass = Classical", fillcolor="#e58139"] ;
+6 -> 8 ;
+9 [label="Netflix is my most strenuous exercise. <= 0.5\ngini = 0.38\nsamples = 12\nvalue = [9, 3]\nclass = Classical", fillcolor="#eeab7b"] ;
+1 -> 9 ;
+10 [label="gini = 0.0\nsamples = 5\nvalue = [5, 0]\nclass = Classical", fillcolor="#e58139"] ;
+9 -> 10 ;
+11 [label="Female <= 0.5\ngini = 0.49\nsamples = 7\nvalue = [4, 3]\nclass = Classical", fillcolor="#f8e0ce"] ;
+9 -> 11 ;
+12 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2]\nclass = Metal", fillcolor="#399de5"] ;
+11 -> 12 ;
+13 [label="gini = 0.32\nsamples = 5\nvalue = [4, 1]\nclass = Classical", fillcolor="#eca06a"] ;
+11 -> 13 ;
+14 [label="gini = 0.0\nsamples = 7\nvalue = [7, 0]\nclass = Classical", fillcolor="#e58139"] ;
+0 -> 14 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
